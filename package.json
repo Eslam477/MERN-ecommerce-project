@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "concurrently": "^7.2.1"
+    },
+    "scripts": {
+        "start": "concurrently --kill-others \"cd server && npm run server\" \"cd frontend && npm run start\""
+    }
+}

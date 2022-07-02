@@ -1,0 +1,33 @@
+{
+    "name": "incommerce",
+    "version": "1.0.0",
+    "description": "ecommerce project built using MERN stack",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Eslam477/incommerce.git"
+    },
+    "keywords": [
+        "ecommerce"
+    ],
+    "author": "E477",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Eslam477/incommerce/issues"
+    },
+    "homepage": "https://github.com/Eslam477/incommerce#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-async-handler": "^1.2.0",
+        "mongoose": "^6.3.4",
+        "mongose": "^0.0.2-security",
+        "nodemon": "^2.0.16"
+    }
+}
